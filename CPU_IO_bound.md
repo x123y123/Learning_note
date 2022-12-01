@@ -10,9 +10,9 @@
 ## IO-bound
 * CPU Loading is very low.
 * In most of time, the task will let CPU waiting for I/O(disk/DRAM), so even you use C code to replace Python, it totally can't improve operating efficiency, so it will more prefer using highest development efficiency code(the least amount of code), scripting language is the first choice.
-## conclusion
-CPU-bound use multi-thread in C.
-I/O-bound use multi-thread in scriptin language(Python).
+## Conclusion
+* CPU-bound use multi-thread in C.
+* I/O-bound use multi-thread in scriptin language(Python).
 
 ## reference
 [知乎](https://zhuanlan.zhihu.com/p/62766037)

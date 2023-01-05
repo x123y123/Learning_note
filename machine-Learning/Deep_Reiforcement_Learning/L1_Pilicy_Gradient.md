@@ -15,3 +15,6 @@ outline:
 ## Expected Reward
 All the things we need to do is `maximize expected reward` $\nabla{\bar{R_\theta}}$.
 * Expected Reward $\bar{R_\theta} = \sum{R(\tau)p_\theta(\tau)}$.
+* $\nabla{\bar{R_\theta}} = \sum{R(\tau)\nabla{p_\theta(\tau)}} = \sum{R(\tau)p_\theta(\tau)\frac{\nabla{p_\theta(\tau)}}{p_\theta(\tau)}} = \sum{R(\tau)p_\theta(\tau)\nabla{\log f(x)}}$.
+
+> gradient of f(x) : $\nabla{f(x)} = f(x)\nabla{\log{f(x)}}$.

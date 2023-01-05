@@ -39,3 +39,6 @@ build/
 
 #swap file
 *.swp
+
+#macos
+.DS_Store

@@ -27,7 +27,7 @@
     * $s_b,r = 0$, END
 
     > * $V^\pi(s_b) = \frac{3}{4}$
-    > * $V^\pi(s_a) = ?$, 0? ,$\frac{3}{4}$
+    > * $V^\pi(s_a) = ?, 0? ,\frac{3}{4}$
     >> * Monte-Carlo: $V^\pi(s_a) = 0$
     >> * Temporal-defference(TD): $V^\pi(s_a) = V^\pi(s_b) + r$ = $\frac{3}{4} + 0$ 
 ## Another Critic

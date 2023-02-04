@@ -3,16 +3,14 @@ In this lecture we will use read() to explore i/o in linux kernel.
 > * In `UNIX`: Everything can be a `file`.
 > * In `Linux`: Everything can be a `file discriptor`.
 
----
-
+## I/O models
 In some i/o programs, we usually can see the following i/o models:
 * blocking
 * non-blocking
 * synchronous
 * asynchronous
 
---- 
-
+## The reason why generate these i/o models
 For a normal i/o, it'll often face two basic stuffs in system:
 * kernel
 * the caller which is the process/thread calls the i/o.

@@ -18,4 +18,4 @@ But in continuing tasks doesn't exist final state, so we add the `discount facto
 
 So new expected return:
 
-$G_t = R_t+1 + \gamma R_t+2$
+$G_t = R_(t+1) + \gamma R_t+2$

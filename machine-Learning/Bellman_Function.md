@@ -9,7 +9,7 @@ We usually face two types of environment:
 ## Expected Return (G)
 Expected Return is the max target, which must be the sum of total reward(R) after time(T).
 
-$G_t = R_t+1 + R_t+2 +R_t+3 + ... + R_T$
+$G_t = R_{t+1} + R_{t+2} +R_{t+3} + ... + R_T$
 
 But in continuing tasks doesn't exist final state, so we add the `discount factor($\gamma$)`, it also can `represent how important future rewards are to the current state`.
 > $0 \le \gamma \le 1$
@@ -18,4 +18,4 @@ But in continuing tasks doesn't exist final state, so we add the `discount facto
 
 So new expected return:
 
-$G_t = R_(t+1) + \gamma R_t+2$
+$G_t = R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + ... + \gamma^{T-t-1} R_T$

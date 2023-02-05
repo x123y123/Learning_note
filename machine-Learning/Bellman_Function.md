@@ -29,3 +29,9 @@ Policy represent the agent's `action probability` in specific state.
 $\pi(a \mid s)$
 
 ## Value function v.s. Action Value Function
+Because the states in every moment are different, and action must change basis of state, so we redefine a `Expected Return` based on specific state.
+
+$$v_{\pi} \doteq \mathbb{E}_{\pi}[G_t \mid S_t = s, A_t = a]$$`
+
+
+

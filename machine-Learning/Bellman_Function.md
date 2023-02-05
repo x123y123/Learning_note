@@ -11,7 +11,7 @@ Expected Return($G$) is the max target, which must be the sum of total reward($R
 
 $G_t = R_{t+1} + R_{t+2} +R_{t+3} + ... + R_T$
 
-But in continuing tasks doesn't exist final state, so we add the `discount factor($\gamma$)`, it also can `represent how important future rewards are to the current state`.
+But in continuing tasks doesn't exist final state, so we add the `discount factor( $\gamma$ )`, it also can `represent how important future rewards are to the current state`.
 > $0 \le \gamma \le 1$
 > * if $\gamma$ more bigger, it will consider more future.
 > * if $\gamma$ more smaller, it will more focus on current state.

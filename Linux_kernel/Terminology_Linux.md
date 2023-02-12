@@ -1,11 +1,13 @@
 # Terminology in Linux
+* In this markdown content is to record some terminologies in Linux from Jserv series lecture [Linux kernel](https://hackmd.io/@sysprog/linux-kernel-internal)
 
-## EDF (Earliest Deadline First)
+## PREEMPT_RT lecture
+### EDF (Earliest Deadline First)
 
-## CBS (Constant Bandwidth Server)
+### CBS (Constant Bandwidth Server)
 
-## Jiffies
+### Jiffies
 
-## tickless kernel
+### tickless kernel
 
-## preemption points
+### preemption points

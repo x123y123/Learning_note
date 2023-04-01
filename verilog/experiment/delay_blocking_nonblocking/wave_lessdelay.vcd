@@ -1,0 +1,62 @@
+$date
+	Sat Apr  1 17:32:32 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module test $end
+$var reg 1 ! a1 $end
+$var reg 1 " a2 $end
+$var reg 1 # a3 $end
+$var reg 1 $ a4 $end
+$var reg 1 % b $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+x$
+x#
+x"
+x!
+$end
+#1200
+0#
+0$
+0"
+0!
+#1500
+1%
+#1700
+0%
+#1800
+1%
+#2500
+0%
+#2700
+1$
+1"
+#2900
+0$
+#3000
+1$
+#3700
+0$
+#4300
+1%
+#5500
+1#
+1$
+1!
+#6800
+0%
+#8000
+0#
+0$
+0!
+0"
+#16800
+1%

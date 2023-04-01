@@ -1,4 +1,6 @@
 # Learning Note about verilog
+* Compiler: `iverilog`
+* Waveform: `gtkwave`
 ## Device
 * Macbook Air M1
 

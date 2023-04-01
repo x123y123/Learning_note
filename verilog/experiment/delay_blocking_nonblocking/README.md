@@ -8,9 +8,9 @@ $ vvp ./a.out
 ## Result 
 * Some Delays less than 12
 
-<img align="center" src="https://github.com/x123y123/Learning_note/blob/main/verilog/experiment/delay_blocking_nonblocking/img/1.png" width="500" height="350">
+<img align="center" src="https://github.com/x123y123/Learning_note/blob/main/verilog/experiment/delay_blocking_nonblocking/img/1.png" width="500" height="200">
 
 * All Delays large than 12
 
-<img align="center" src="https://github.com/x123y123/Learning_note/blob/main/verilog/experiment/delay_blocking_nonblocking/img/2.png" width="500" height="350">
+<img align="center" src="https://github.com/x123y123/Learning_note/blob/main/verilog/experiment/delay_blocking_nonblocking/img/2.png" width="500" height="200">
 

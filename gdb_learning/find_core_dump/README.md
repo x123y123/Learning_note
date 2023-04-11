@@ -23,23 +23,6 @@ file locks                      (-x) unlimited
 ```
 > core file size is 0, it means it won't gen core dump file, when program crash
 
-* Create a simple code will make core dump
-```c
-#include <stdio.h>
-#include <stdlib.h>
-
-void test()
-{
-    char* s = "Hello";
-    *s = 'Hi';
-}
-
-int main(int argc, char** argv)
-{
-    test();
-    return (EXIT_SUCCESS);
-}
-```
 * Complie 
 ```shell
 $ gcc -g -O0 bug.c

@@ -7,6 +7,27 @@ typedef struct Node
     struct Node *next;
 } Node_t;
 
+void insert_head(Node_t** root, int value)
+{   //create a new node, node->next = NULL
+    Node_t* new_node = malloc(sizeof(Node_t));
+    
+    // because malloc may be failed, and it will return and cause warning in compiler
+    if (new_node == NULL) {
+        exit(1);
+    }
+    new_node->next = NULL;
+    new_node->x = value;
+
+    if (*root == NULL) {
+        *root = new_node;
+        return;
+    }
+    Node_t* curr = *root;
+    *root = new_node;
+    
+    new_node->next = curr;
+}
+
 void insert_tail(Node_t** root, int value)
 {   //create a new node, node->next = NULL
     Node_t* new_node = malloc(sizeof(Node_t));
@@ -45,17 +66,10 @@ void deallocate(Node_t** root)
 int main(int argc, char** argv)
 {
     Node_t* root = NULL;
-/*
-    Node_t* root = malloc(sizeof(Node_t));
-
-    if (root == NULL)
-        exit(2);
-
-    root->x = 15;
-    root->next = NULL;
-*/
+    
     insert_tail(&root, 2);
     insert_tail(&root, -23);
+    insert_head(&root, 0);
 
 
     Node_t* cur = root;
